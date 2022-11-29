@@ -11,17 +11,17 @@ PCMDI has led research into the detection and attribution of the causes of clima
 
 ---
 
-# Climate Model Diagnosis
-
-#### [Diagnosis of Climate Models][Diagnosis]
-PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models. Although models have become increasingly complex, model errors and disagreements among model simulations remain substantial and poorly understood. The nature and causes of these disagreements should be uncovered before the models are fully trusted to inform us about global climate change. 
-
----
-
 # Climate Model Metrics
 
 #### [Diagnosis of Climate Model Performance][Metrics]
-The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP5 and earlier CMIP phases
+PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models. The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP6 and earlier CMIP phases.
+
+---
+
+# Cloud Feedbacks
+
+#### [Cloud Feedbacks and Climate Sensitivity Research][CloudFeedbacks]
+PCMDI conducts extensive research to try and reduce uncertainty in climate sensitivity, with a focus on its primary driver, cloud feedback. This includes developing advanced diagnostics for evaluating cloud feedbacks, using cloud controlling factors to observationally constrain feedbacks, and discovering emergent constraints.
 
 ---
 
@@ -31,5 +31,6 @@ The PCMDI metrics package is used to objectively compare results from climate mo
 
 [DandA]:{{site.baseurl}}/research/DandA/index.html
 [Diagnosis]:{{site.baseurl}}/research/diagnostics/index.html
-[Metrics]:{{site.baseurl}}/research/metrics/index.html
+[Metrics]:{{site.baseurl}}/research/metrics/
+[CloudFeedbacks]:{{site.baseurl}}/projects/cloud_feedbacks/index.html
 [KEN]:{{site.baseurl}}/staff/sperber/supplemental.html

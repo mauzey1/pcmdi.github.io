@@ -9,7 +9,20 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
+### 2022
+* Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: [Estimate Coupled Cloud Feedbacks from Inexpensive Short-Term Atmosphere-Only Simulations](https://climatemodeling.science.energy.gov/research-highlights/estimate-coupled-cloud-feedbacks-inexpensive-short-term-atmosphere-only)
+
+* Samset, B. H., C. Zhou, J. S. Fuglestvedt, M. T. Lund, J. Marotzke, and M. D. Zelinka, 2022: [Speeding up Detection of Climate Response to Emission Reductions](https://climatemodeling.science.energy.gov/research-highlights/speeding-detection-climate-response-emission-reductions)
+
+* Thackeray, C. W., A. Hall, J. Norris, and D. Chen, 2022: [Constraining The Increased Frequency Of Global Precipitation Extremes Under Warming](https://climatemodeling.science.energy.gov/research-highlights/constraining-increased-frequency-global-precipitation-extremes-under-warming)
+
+* Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers, 2022: [Evaluating Climate Models’ Cloud Feedbacks Against Expert Judgment](https://climatemodeling.science.energy.gov/research-highlights/evaluating-climate-models-cloud-feedbacks-against-expert-judgment)
+
+* Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2022: [Detailing Cloud Property Feedbacks with a Regime-Based Decomposition](https://climatemodeling.science.energy.gov/research-highlights/detailing-cloud-property-feedbacks-regime-based-decomposition)
+
 ### 2021
+* Chen, D., J. Norris, N. Goldenson, C. Thackeray, and A. Hall, 2021: [A distinct atmospheric mode for California precipitation](https://climatemodeling.science.energy.gov/research-highlights/distinct-atmospheric-mode-california-precipitation)
+
 * Hahn, L., K. Armour, M. D. Zelinka, C. Bitz, and A. Donohoe, 2021: [Causes of Polar Amplification in Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/causes-polar-amplification-earth-system-models)
 
 * Myers, T. A., R. C. Scott, M. D. Zelinka, S. A. Klein, J. R. Norris, and P. M. Caldwell, 2021: [Observational Constraints on Low Cloud Feedback Reduce Uncertainty of Climate Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-low-cloud-feedback-reduce-uncertainty-climate)

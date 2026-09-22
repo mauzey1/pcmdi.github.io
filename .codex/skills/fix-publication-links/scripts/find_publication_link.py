@@ -210,16 +210,56 @@ def ssl_context(args: argparse.Namespace) -> ssl.SSLContext | None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--doi")
-    parser.add_argument("--title")
-    parser.add_argument("--authors")
-    parser.add_argument("--metadata", type=Path, help="JSON object or list with doi, title, and authors fields")
-    parser.add_argument("--prefer-publisher", action="store_true")
-    parser.add_argument("--rows", type=int, default=5)
-    parser.add_argument("--timeout", type=float, default=20.0)
-    parser.add_argument("--delay", type=float, default=0.0, help="seconds between metadata records")
-    parser.add_argument("--ca-bundle", type=Path)
-    parser.add_argument("--no-verify-tls", action="store_true")
+    parser.add_argument(
+        "--doi",
+        help="DOI to verify; accepts a bare DOI, DOI URL, or string containing a DOI",
+    )
+    parser.add_argument(
+        "--title",
+        help="publication title, used to search and rank Crossref candidates",
+    )
+    parser.add_argument(
+        "--authors",
+        help="publication author list, used to confirm title-search candidates",
+    )
+    parser.add_argument(
+        "--metadata",
+        type=Path,
+        help="JSON file containing one object or a list of objects with doi, title, and authors fields",
+    )
+    parser.add_argument(
+        "--prefer-publisher",
+        action="store_true",
+        help="recommend Crossref's publisher URL instead of the default canonical DOI URL",
+    )
+    parser.add_argument(
+        "--rows",
+        type=int,
+        default=5,
+        help="maximum Crossref title/author search candidates to retrieve (default: 5)",
+    )
+    parser.add_argument(
+        "--timeout",
+        type=float,
+        default=20.0,
+        help="maximum seconds to wait for each DOI or Crossref request (default: 20)",
+    )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=0.0,
+        help="seconds to wait between records supplied with --metadata (default: 0)",
+    )
+    parser.add_argument(
+        "--ca-bundle",
+        type=Path,
+        help="PEM CA bundle to use for TLS verification",
+    )
+    parser.add_argument(
+        "--no-verify-tls",
+        action="store_true",
+        help="disable TLS certificate verification; do not use with --ca-bundle",
+    )
     return parser.parse_args()
 
 

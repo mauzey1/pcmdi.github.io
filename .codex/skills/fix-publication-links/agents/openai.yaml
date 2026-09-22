@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Publication Links"
+  short_description: "Find verified publication URLs from metadata"
+  default_prompt: "Use $fix-publication-links to find and safely update the publication link for this page entry."
